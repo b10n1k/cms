@@ -1,0 +1,16 @@
+File Edit Options Buffers Tools HTML SGML Help                                                                            
+
+<html>
+<head>
+<title>Entries details</title>
+</head>
+<body>
+<h1>Entries details</h1>
+<h2>{{ entry.title }}</h2>
+<p>Published on {{ entry.pub_date|date:"F j, Y" }}</p>
+{{ entry.body }}
+<br \>
+<a href="http://localhost:8000/weblog/">return</a>
+</body>
+</html>
+

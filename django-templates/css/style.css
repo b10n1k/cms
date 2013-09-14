@@ -1,0 +1,13 @@
+body{
+background:url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-KlW02AkqvlybFBLEcuDfxH5HNJtM_YE23nJlah6A9lq7lREK");
+background-size:60% 50%;
+background-color:#009000;
+}
+
+body.p{
+font-style:italic;
+}
+
+h2{
+font-size:40px;
+}

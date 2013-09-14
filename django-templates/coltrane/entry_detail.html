@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Entries details</title>
+<link rel="stylesheet" type="text/css" href="/mnt/home/j0ni/eeeLab/djangoLab/django-templates/css/style.css">
+</head>
+<body>
+<h1>Entries details</h1>
+<h2>{{ object.title }}</h2>
+<p>Published on {{ object.pub_date|date:"F j, Y" }}</p>
+{{ object.body }}
+<br \>
+<a href="http://localhost:8000/weblog/">return</a>
+</body>
+</html>
+
